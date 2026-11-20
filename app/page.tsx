@@ -87,7 +87,7 @@ export default function Home() {
     };
 
     return (
-        <main className="flex h-[100dvh] flex-col overflow-hidden bg-slate-50 text-slate-800">
+        <main className="fixed inset-0 flex flex-col overflow-hidden bg-slate-50 text-slate-800">
             {/* Header */}
             <header className="shrink-0 border-b border-slate-200 bg-white px-4 py-3 shadow-sm sm:px-6 sm:py-4">
                 <div className="mx-auto flex max-w-3xl items-center gap-3">
